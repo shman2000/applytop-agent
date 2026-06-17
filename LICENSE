@@ -1,0 +1,16 @@
+Copyright (c) ApplyTop. All rights reserved.
+
+This software and its source code are proprietary and confidential. The
+`applytop` package is distributed for use with the ApplyTop public API.
+
+You may install and use the published package to access your own ApplyTop
+account and the ApplyTop public API. You may not copy, modify, redistribute,
+sublicense, or create derivative works of this source code without the prior
+written permission of ApplyTop.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+APPLYTOP BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

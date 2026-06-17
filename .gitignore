@@ -1,0 +1,9 @@
+node_modules/
+# Re-include the lockfile (the monorepo's projects/.gitignore ignores it globally,
+# but the published standalone repo wants it for reproducible installs).
+!package-lock.json
+.applytop/
+credentials.json
+*.log
+npm-debug.log*
+.DS_Store

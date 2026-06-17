@@ -1,0 +1,45 @@
+{
+  "name": "applytop",
+  "version": "0.1.0",
+  "description": "Command-line interface and Node client for the ApplyTop public API — search jobs and access your alerts, matches, saved jobs, and CVs (incl. AI tailoring) from the terminal or programmatically.",
+  "type": "module",
+  "bin": {
+    "applytop": "./bin/applytop.js"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node bin/applytop.js",
+    "test": "mocha test/**/*.test.js --timeout 20000 --exit"
+  },
+  "keywords": [
+    "applytop",
+    "cli",
+    "jobs",
+    "job-search",
+    "api",
+    "client",
+    "sdk",
+    "cv",
+    "resume"
+  ],
+  "author": "Kamil Kwiecien",
+  "license": "Copyright ApplyTop",
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^9.2.2"
+  }
+}

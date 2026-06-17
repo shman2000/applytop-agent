@@ -141,7 +141,7 @@ Success prints the response payload as JSON to **stdout** (exit `0`). Errors pri
 - **Pro is mandatory.** No key can be created on a free account; live calls return `403 pro_required`.
 - **Credits are charged to the key owner**, not the caller — and only for `cvs:tailor`, `cvs:cover-letter`, `cvs:ats-score`. Failed generations are auto-refunded.
 - **Rate limit is 100 requests/min per key** → `rate_limited`. Back off and retry.
-- **`--insecure` is for self-signed dev certs only** (pairs with `--api-url https://dev.applytop.com/api/v1`). Never use it against production.
+- **`--insecure` is for self-signed dev certs only.** Never use it against production.
 - **`<jobId>` ≠ `<cvId>`.** The AI commands take a *job* id (pool or matched); pick the CV with `--cv` or fall back to your default.
 - **Auth precedence** is `--api-key` > `APPLYTOP_API_KEY` > `~/.applytop/credentials.json` — a stray env var will override your saved login.
 

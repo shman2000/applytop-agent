@@ -132,6 +132,14 @@ Success prints the response payload as JSON to **stdout** (exit 0). Errors print
 
 `cvs:tailor`, `cvs:cover-letter`, and `cvs:ats-score` each cost **1 AI credit** (charged to the key owner; check with `account:credits`). Everything else is free. A failed AI generation is automatically refunded.
 
+## Documentation
+
+- **[CLI Docs](https://applytop.com/cli-docs)** — full command reference and examples
+- **[API Docs](https://applytop.com/api-docs)** — the underlying ApplyTop public API
+- **[API Keys Dashboard](https://applytop.com/dashboard/api-keys)** — create and manage keys
+- **[applytop on npm](https://www.npmjs.com/package/applytop)** — package page
+- **[ApplyTop](https://applytop.com)** — the platform
+
 ## License
 
 Copyright ApplyTop.

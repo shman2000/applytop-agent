@@ -1,6 +1,6 @@
 {
   "name": "applytop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Command-line interface and Node client for the ApplyTop public API — search jobs and access your alerts, matches, saved jobs, and CVs (incl. AI tailoring) from the terminal or programmatically.",
   "type": "module",
   "bin": {
